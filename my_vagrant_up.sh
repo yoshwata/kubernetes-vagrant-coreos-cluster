@@ -1,0 +1,4 @@
+#! /bin/bash -exv
+
+MASTER_CPUS=2 MASTER_MEM=512 NODE_MEM=512 NODE_CPUS=2 NODES=2 USE_KUBE_UI=true vagrant up
+
